@@ -5,6 +5,7 @@ export default class Sets{
         this.elements = new List_double_linked()
     }
     add(data){
+        if(this.has(data)) return   
         this.elements.add(data)
      }
     delete(data){
