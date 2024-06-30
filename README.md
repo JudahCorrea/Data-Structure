@@ -6,3 +6,9 @@ structures covered in this directory:
 * queue
 * heap
 * sets
+* sorting algorithms :
+   - Bubble Sort
+   - Insertion Sort
+   - Quick Sort
+   - Selection Sort
+   
