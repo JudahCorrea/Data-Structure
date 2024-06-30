@@ -9,3 +9,6 @@ structures covered in this directory:
 * sorting algorithms :
    - Bubble Sort
    - Insertion Sort
+   - Quick Sort
+   - Selection Sort
+   
