@@ -11,4 +11,5 @@ structures covered in this directory:
    - Insertion Sort
    - Quick Sort
    - Selection Sort
+   - Merge Sort
    
