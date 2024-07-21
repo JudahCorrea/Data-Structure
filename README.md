@@ -12,4 +12,10 @@ structures covered in this directory:
    - Quick Sort
    - Selection Sort
    - Merge Sort
+* search algorithms :
+   - Sequential Search
+   - Sentinel Quest
+   - Binary Search
+   - Hash Table
+   - Binary Tree
    
