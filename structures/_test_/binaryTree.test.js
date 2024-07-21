@@ -13,6 +13,8 @@ test('add', ()=>{
     bt.insert(20)
     bt.insert(7)
     bt.insert(35)
+    let minNode = bt.findMinNode(bt.root)
+    expect(minNode.key).toBe(7)
 })
 
 test('remove', ()=>{
@@ -23,4 +25,6 @@ test('remove', ()=>{
     bt.insert(7)
     bt.insert(35)
     bt.remove(7)
+    let minNode = bt.findMinNode(bt.root)
+    expect(minNode.key).toBe(16)
 })
