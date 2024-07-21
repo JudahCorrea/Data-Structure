@@ -61,6 +61,31 @@ export default class BinaryTree{
         }
     }
 
+    printPreOrder(node, aux = []){
+        if(node != null){
+            aux.push(node.key)
+            this.printPreOrder(node.esq,aux)
+            this.printPreOrder(node.dir,aux)
+        }
+        return aux
+    }
+    printInOrder(node, aux = []){
+        if(node != null){
+            this.printInOrder(node.esq, aux)
+            aux.push(node.key)
+            this.printInOrder(node.dir, aux)
+        }
+        return aux
+    }
+    printAfterOrder(node, aux = []){
+        if(node != null){
+            this.printAfterOrder(node.esq, aux)
+            this.printAfterOrder(node.dir, aux)
+            aux.push(node.key)
+        }
+        return aux
+    }
+
     findMinNode(node){
         while(node && node.esq !== null){
             node = node.esq
